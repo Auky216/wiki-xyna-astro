@@ -1,0 +1,12 @@
+---
+import WikiLayout from "@/layouts/WikiLayout.astro";
+import PagePager from "@/components/PagePager.astro";
+import ArticleContent from "@/components/ArticleContent";
+import { SoftReveal } from "@/components/PageMotion";
+import { wiki } from "@/lib/wiki";
+---
+<WikiLayout title="Referencias y créditos" current="referencias">
+  <SoftReveal client:load><header class="page-heading"><p class="eyebrow">Fuentes del proyecto</p><h1>Referencias<br />y créditos.</h1></header></SoftReveal>
+  <ArticleContent nodes={wiki.references} className="article-references" client:load />
+  <PagePager previous={{ href:"/equipo/",label:"Equipo" }} />
+</WikiLayout>

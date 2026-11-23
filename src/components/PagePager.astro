@@ -1,0 +1,9 @@
+---
+import { withBase } from "@/lib/wiki";
+interface Props { previous?: { href: string; label: string }; next?: { href: string; label: string }; }
+const { previous, next } = Astro.props;
+---
+<nav class="page-pager" aria-label="Continuar leyendo">
+  {previous ? <a href={withBase(previous.href)}><span>Anterior</span><strong>{previous.label}</strong></a> : <div />}
+  {next ? <a class="pager-next" href={withBase(next.href)}><span>Continuar leyendo</span><strong>{next.label}</strong></a> : <div />}
+</nav>

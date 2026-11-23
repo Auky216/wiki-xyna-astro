@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="80" viewBox="0 0 240 80" role="img" aria-labelledby="title"><title id="title">XynA · Biología sintética</title><style>.logo-strand{transform-origin:24px 24px;animation:appear .8s cubic-bezier(.22,1,.36,1) both}.logo-strand.second{animation-delay:.12s}.logo-rung{transform-origin:24px 24px;animation:appear .5s ease-out both;animation-delay:calc(.25s + var(--rung,0) * .06s)}@keyframes appear{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}@media(prefers-reduced-motion:reduce){.logo-strand,.logo-rung{animation:none}}</style><g transform="translate(4 8) scale(1.333333)"><g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path class="logo-strand" d="M11 6C11 21 37 27 37 42" stroke="#18745c" stroke-width="3.4"/>
+  <path class="logo-strand second" d="M37 6C37 21 11 27 11 42" stroke="#365a46" stroke-width="3.4"/>
+  <path class="logo-rung" style="--rung:0" d="M14 12H34" stroke="#92b59e" stroke-width="1.8"/>
+  <path class="logo-rung" style="--rung:1" d="M20 20H28" stroke="#92b59e" stroke-width="1.8"/>
+  <path class="logo-rung" style="--rung:2" d="M20 28H28" stroke="#92b59e" stroke-width="1.8"/>
+  <path class="logo-rung" style="--rung:3" d="M14 36H34" stroke="#92b59e" stroke-width="1.8"/>
+</g></g><text x="84" y="52" font-family="Arial,Helvetica,sans-serif" font-size="45" font-weight="700" letter-spacing="-2" fill="#243d34">XynA</text></svg>

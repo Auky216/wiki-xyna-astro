@@ -1,0 +1,49 @@
+{
+  "framework": "Astro",
+  "componentes": [
+    "shadcn/ui: Button, Accordion, Dialog, Tabs, Sheet, Command",
+    "Magic UI: Blur Fade, Scroll Progress"
+  ],
+  "compilacion": {
+    "errores": 0,
+    "advertencias": 0,
+    "paginas_estaticas": 13
+  },
+  "preservacion": {
+    "bloques_cientificos_identicos": 357,
+    "figuras_del_informe_verificadas_sha256": 12,
+    "portada_y_html_original_verificados": true
+  },
+  "pruebas_de_navegador": [
+    "Portada y figuras en escritorio de 1280 px",
+    "Menú móvil, evidencia e imágenes ampliables a 390 px sin desbordamiento horizontal",
+    "Pestañas de vector parental y ensamblaje de T2",
+    "Búsqueda de PCR con apertura automática de su desplegable",
+    "Búsqueda de XylX6 con selección automática de su pestaña y cierre del buscador",
+    "Visor de figuras y cierre con Escape",
+    "Versión compilada sin errores de consola"
+  ],
+  "ruta_de_repositorio_comprobada": "/xyna-wiki/",
+  "publicacion": "Proyecto local preparado; sin repositorio remoto ni despliegue creado.",
+  "rediseño_visual": {
+    "identidad": "Verde lima, tipografía Nunito, botones con relieve y mascota original XynA",
+    "logo_utec": "Original local, conservado en la cabecera",
+    "ilustraciones_generadas": 2,
+    "icono_vectorial_nuevo": "public/brand/xyna-mascota.svg",
+    "contenido_fuente_sin_cambios": true,
+    "revisión_de_contenido_renderizado": {
+      "paginas": 13,
+      "escritorio_px": 1065,
+      "movil_px": 390,
+      "bloques_ausentes": 0,
+      "paginas_con_desbordamiento_horizontal": 0
+    },
+    "interacciones_verificadas": [
+      "Pestañas del vector parental y T2",
+      "Ampliación y descarga disponible de figuras",
+      "Búsqueda de materiales con apertura automática del desplegable",
+      "Menú móvil"
+    ],
+    "errores_consola_observados": 0
+  }
+}

@@ -1,0 +1,11 @@
+---
+import { Node } from "@/components/ArticleContent";
+import type { Heading } from "@/lib/wiki";
+interface Props { heading: Heading; }
+const { heading } = Astro.props;
+---
+<header class="page-heading">
+  <p class="eyebrow">{heading.eyebrow.children.map(node => <Node node={node} />)}</p>
+  <h1 id={heading.title.attrs.id}>{heading.title.children.map(node => <Node node={node} />)}</h1>
+  <div class="page-intro"><Node node={heading.intro} /></div>
+</header>

@@ -1,0 +1,35 @@
+---
+import cassettesSvg from "../../public/figures/cassettes-xyna.svg?raw";
+import WikiLayout from "@/layouts/WikiLayout.astro";
+import { Node } from "@/components/ArticleContent";
+import { buttonVariants } from "@/components/ui/button";
+import { SoftReveal } from "@/components/PageMotion";
+import SectionIcon from "@/components/SectionIcon.astro";
+import { wiki, withBase, resolveHref, navigation, type WikiNode } from "@/lib/wiki";
+const { hero } = wiki;
+const actions = hero.actions.children.filter(child => typeof child !== "string") as WikiNode[];
+---
+<WikiLayout title="Dos promotores, una pregunta" home>
+  <div class="home-kicker"><span>Biología Sintética II · UTEC</span><span>Proyecto de investigación</span></div>
+  <section class="home-hero" aria-labelledby="home-title">
+    <SoftReveal client:load className="home-hero-visual">
+      <img class="hero-mascot" src={withBase("/illustrations/xyna-maiz-laboratorio.png")} alt="Mascota ilustrada de XynA con una mazorca, un microscopio y material de laboratorio." width="1402" height="1122" fetchpriority="high" />
+    </SoftReveal>
+    <div class="home-hero-copy">
+      <SoftReveal client:load>
+        <p class="eyebrow">{hero.eyebrow.children.map(node => <Node node={node} />)}</p>
+        <h1 id="home-title">{hero.title.children.map(node => <Node node={node} />)}</h1>
+        <div class="home-question"><Node node={hero.question} /></div>
+        <div class="home-description"><Node node={hero.description} /></div>
+        <div class="home-actions">{actions.map((action,index) => <a data-slot="button" data-variant={index === 0 ? "default" : "outline"} class={buttonVariants({variant:index === 0 ? "default" : "outline",size:"lg"})} href={resolveHref(action.attrs.href)}>{action.children.map(node => <Node node={node} />)}</a>)}</div>
+      </SoftReveal>
+    </div>
+  </section>
+  <div class="home-scope"><Node node={hero.note} /></div>
+  <div class="home-facts"><Node node={hero.facts} /></div>
+  <section class="home-architecture" aria-labelledby="architecture-title">
+    <div class="architecture-copy"><p class="eyebrow">Arquitectura genética · Diseño <i>in silico</i></p><h2 id="architecture-title"><Node node={hero.caption.children[0]} /></h2><div class="architecture-caption">{hero.caption.children.slice(2).map(node => <Node node={node} />)}</div><a class="text-link" href={withBase("/diseno/")}>Explorar el diseño genético</a></div>
+    <figure class="hero-cassettes"><Fragment set:html={cassettesSvg} /></figure>
+  </section>
+  <section class="chapter-section" aria-labelledby="chapters-title"><div class="chapter-heading"><p class="eyebrow">Explorar la wiki</p><h2 id="chapters-title">Una lectura por etapas.</h2></div><nav class="chapter-grid" aria-label="Secciones del proyecto">{navigation.slice(0,5).map(item => <a href={withBase(`/${item.id}/`)}><SectionIcon name={item.icon} /><h3>{item.label}</h3><p>{item.description}</p></a>)}</nav></section>
+</WikiLayout>

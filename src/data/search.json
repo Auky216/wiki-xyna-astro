@@ -1,0 +1,368 @@
+[
+  {
+    "title": "El proyecto",
+    "href": "/proyecto/",
+    "category": "Wiki XynA",
+    "text": "La coronta contiene una fracción hemicelulósica rica en xilano. La xilanasa XynA permite estudiar su hidrólisis y conectar un diseño genético con una transformación del sustrato."
+  },
+  {
+    "title": "Xilano de coronta",
+    "href": "/proyecto/#tema-xilano-de-coronta",
+    "category": "El proyecto",
+    "text": "Xilano de coronta"
+  },
+  {
+    "title": "XynA · familia GH11",
+    "href": "/proyecto/#tema-xyna-familia-gh11",
+    "category": "El proyecto",
+    "text": "XynA · familia GH11"
+  },
+  {
+    "title": "J23106 / J23100",
+    "href": "/proyecto/#tema-j23106-j23100",
+    "category": "El proyecto",
+    "text": "J23106 / J23100"
+  },
+  {
+    "title": "Objetivo y alcance",
+    "href": "/proyecto/#tema-objetivo-y-alcance",
+    "category": "El proyecto",
+    "text": "Objetivo y alcance"
+  },
+  {
+    "title": "Hipótesis de trabajo",
+    "href": "/proyecto/#tema-hipotesis-de-trabajo",
+    "category": "El proyecto",
+    "text": "Hipótesis de trabajo"
+  },
+  {
+    "title": "Diseño genético",
+    "href": "/diseno/",
+    "category": "Wiki XynA",
+    "text": "T1 usa J23106 y T2 usa J23100. Se conservan el hospedero, el vector, la secuencia de xynA, B0030, su contexto inmediato y B1006."
+  },
+  {
+    "title": "Vector parental · 2472 pb",
+    "href": "/diseno/#tema-vector-parental-2472-pb",
+    "category": "Diseño genético",
+    "text": "Vector parental · 2472 pb"
+  },
+  {
+    "title": "Ensamblaje in silico de T2 · 2379 pb",
+    "href": "/diseno/#tema-ensamblaje-in-silico-de-t2-2379-pb",
+    "category": "Diseño genético",
+    "text": "Ensamblaje in silico de T2 · 2379 pb"
+  },
+  {
+    "title": "Ver los cassettes originales del informe",
+    "href": "/diseno/#detalles-ver-los-cassettes-originales-del-informe",
+    "category": "Diseño genético",
+    "text": "Ver los cassettes originales del informeA = T2 · J23100; B = T1 · J23106. El orden de los paneles del informe es distinto al orden T1–T2 empleado en la portada. La identidad de cada tratamiento se conserva en toda la wiki.Figura del equipo, informe, p. 13."
+  },
+  {
+    "title": "Fundamento del ensamblaje y verificación del diseño",
+    "href": "/diseno/#detalles-fundamento-del-ensamblaje-y-verificacion-del-diseno",
+    "category": "Diseño genético",
+    "text": "Fundamento del ensamblaje y verificación del diseñoSe seleccionó ensamblaje por homología Gibson / NEBuilder HiFi porque xynA contiene un sitio interno NcoI. Una estrategia con NcoI y SacI cortaría el inserto. El diseño de T2 sustituye DasherGFP (735 pb) por xynA (642 pb).El informe documenta la revisión de cuatro cebadores con NEBuilder e IDT OligoAnalyzer y la comparación de la construcción con el vector original en SnapGene. Se conservan J23100, B0030, B1006, KanR y el origen de replicación. Los cebadores son candidatos y requieren validación experimental.Caracterización de los cebadores del diseño de T2CebadorLongitud (nt)Tm 3′ NEBuilder (°C)Tm IDT (°C)Horquilla ΔGHomodímero ΔGVector Forward1959,158,9No detectado−9,49Vector Reverse2361,961,3−0,63−4,85xynA Forward4855,670,5−1,79−8,74xynA Reverse4058,572,4−0,77−9,49ΔG en kcal/mol. La Tm de IDT corresponde al oligonucleótido completo; la de NEBuilder, a la región de alineamiento 3′. El informe advierte secuencias repetitivas en tres cebadores y 18 % GC en el alineamiento de xynA Forward. Fuente: informe, pp. 15–16."
+  },
+  {
+    "title": "Experimento",
+    "href": "/experimento/",
+    "category": "Wiki XynA",
+    "text": "La comparación principal es T1 frente a T2. Cada cultivo mantiene su identidad hasta la medición de actividad y proteína total en la misma fracción soluble del lisado celular."
+  },
+  {
+    "title": "Construir y verificar",
+    "href": "/experimento/#tema-construir-y-verificar",
+    "category": "Experimento",
+    "text": "Construir y verificar"
+  },
+  {
+    "title": "Cultivar en paralelo",
+    "href": "/experimento/#tema-cultivar-en-paralelo",
+    "category": "Experimento",
+    "text": "Cultivar en paralelo"
+  },
+  {
+    "title": "Recuperar la muestra",
+    "href": "/experimento/#tema-recuperar-la-muestra",
+    "category": "Experimento",
+    "text": "Recuperar la muestra"
+  },
+  {
+    "title": "Comparar U/mg",
+    "href": "/experimento/#tema-comparar-u-mg",
+    "category": "Experimento",
+    "text": "Comparar U/mg"
+  },
+  {
+    "title": "La unidad experimental es un cultivo.",
+    "href": "/experimento/#tema-la-unidad-experimental-es-un-cultivo",
+    "category": "Experimento",
+    "text": "La unidad experimental es un cultivo."
+  },
+  {
+    "title": "Bradford",
+    "href": "/experimento/#tema-bradford",
+    "category": "Experimento",
+    "text": "Bradford"
+  },
+  {
+    "title": "DNS",
+    "href": "/experimento/#tema-dns",
+    "category": "Experimento",
+    "text": "DNS"
+  },
+  {
+    "title": "XylX6",
+    "href": "/experimento/#tema-xylx6",
+    "category": "Experimento",
+    "text": "XylX6"
+  },
+  {
+    "title": "Indicador principal",
+    "href": "/experimento/#tema-indicador-principal",
+    "category": "Experimento",
+    "text": "Indicador principal"
+  },
+  {
+    "title": "Lecturas que completan la comparación",
+    "href": "/experimento/#tema-lecturas-que-completan-la-comparacion",
+    "category": "Experimento",
+    "text": "Lecturas que completan la comparación"
+  },
+  {
+    "title": "Controles y lectura: qué contiene cada grupo y qué permite interpretar",
+    "href": "/experimento/#detalles-controles-y-lectura-que-contiene-cada-grupo-y-que-permite-interpretar",
+    "category": "Experimento",
+    "text": "Controles y lectura: qué contiene cada grupo y qué permite interpretarTratamientos, controles y blancos del diseñoCódigoQué contieneQué permite interpretarT1BL21(DE3) con pIDMv5K–J23106–B0030–xynA–B1006.Producción y actividad asociadas a la construcción con J23106.T2BL21(DE3) con pIDMv5K–J23100–B0030–xynA–B1006.Producción y actividad asociadas a la construcción con J23100.C−1BL21(DE3) con el vector correspondiente sin xynA.Actividad basal del hospedero y la plataforma plasmídica.C−2Alícuota inactivada de la preparación de T1 o T2.Dependencia de la señal respecto de actividad catalítica. Conserva su cultivo de origen.C+Xilanasa activa de referencia.Respuesta detectable del ensayo ante una enzima activa.B1Sustrato y reactivos sin preparación enzimática.Señal basal del sustrato y de los reactivos.B2Preparación proteica sin sustrato.Contribución de la matriz proteica a la señal analítica.Adaptado del informe, pp. 6–7. La muestra de T1, T2, C−1 y sus alícuotas se identifica como fracción soluble del lisado celular."
+  },
+  {
+    "title": "Materiales, componentes y equipos",
+    "href": "/experimento/#detalles-materiales-componentes-y-equipos",
+    "category": "Experimento",
+    "text": "Materiales, componentes y equiposDos cepas cumplen funciones distintas: NEB 5-alpha para clonación y BL21(DE3) para expresión. El mismo lector de microplacas permite realizar las lecturas de absorbancia de los ensayos propuestos.NEB 5-alphaRecuperación y propagación de plásmidos.BL21(DE3)Expresión y control biológico.pIDMv5KVector parental con KanR.Fracción de corontaSustrato rico en xilano.Xilanasa de referenciaControl positivo del ensayo.Lector de microplacasAbsorbancia: Bradford, DNS y XylX6.Componentes biológicosE. coli NEB 5-alpha y BL21(DE3).Vector parental pIDMv5K–J23100–B0030–DasherGFP–B1006.Promotores J23106 y J23100.Gen xynA de B. subtilis 168, Gene ID 939861.RBS B0030, terminador B1006 y construcciones T1/T2.Control biológico sin xynA.ReactivosADN molde, cebadores y fuente de la secuencia J23106 para T1.Q5 High-Fidelity, tampón Q5, dNTP y agua libre de nucleasas.NEBuilder HiFi DNA Assembly, kit E5520.Agarosa, tampones, colorante de ADN y marcador de tamaño.Kit de extracción plasmídica y cebadores para Sanger.LB, agar LB, kanamicina y tampón de extracción.Bradford y BSA; fracción de coronta y tampón de reacción.DNS y D-xilosa; XylX6; xilanasa activa de referencia.EquiposBalanza y medidor de pH.Termociclador; sistema de electroforesis y visualización.Incubadora microbiológica e incubadora con agitación.Centrífuga y microcentrífuga.Sonicador para ruptura celular.Baño termostatado o bloque térmico.Lector de microplacas con modo de absorbancia.Materiales de laboratorioVasos, probetas y matraces Erlenmeyer.Micropipetas, puntas, pipetas serológicas y propipeta.Espátula y recipientes de pesaje.Tubos de PCR, microtubos, tubos cónicos y gradillas.Placas de Petri y asas estériles.Tubos resistentes al calentamiento para DNS.Microplacas transparentes de absorbancia.Lista adaptada del informe, pp. 9–13. La temperatura y duración de cultivo, así como las condiciones finales del ensayo, deben definirse antes de la comparación experimental."
+  },
+  {
+    "title": "Componentes biológicos",
+    "href": "/experimento/#detalles-materiales-componentes-y-equipos",
+    "category": "Experimento",
+    "text": "Componentes biológicos"
+  },
+  {
+    "title": "Reactivos",
+    "href": "/experimento/#detalles-materiales-componentes-y-equipos",
+    "category": "Experimento",
+    "text": "Reactivos"
+  },
+  {
+    "title": "Equipos",
+    "href": "/experimento/#detalles-materiales-componentes-y-equipos",
+    "category": "Experimento",
+    "text": "Equipos"
+  },
+  {
+    "title": "Materiales de laboratorio",
+    "href": "/experimento/#detalles-materiales-componentes-y-equipos",
+    "category": "Experimento",
+    "text": "Materiales de laboratorio"
+  },
+  {
+    "title": "PCR con Q5 · composición de una reacción de 25 µL",
+    "href": "/experimento/#detalles-pcr-con-q5-composicion-de-una-reaccion-de-25-l",
+    "category": "Experimento",
+    "text": "PCR con Q5 · composición de una reacción de 25 µLLa PCR permitirá obtener los fragmentos de vector e inserto destinados al ensamblaje por homología. La composición de la figura del informe se transcribe como tabla para facilitar su lectura.Composición reproducida de la figura del informeComponenteVolumen por reacciónTampón Q5 de reacción 5×5 µLdNTP · 10 mM0,5 µLCebador Forward · 10 µM1,25 µLCebador Reverse · 10 µM1,25 µLADN moldeVariableQ5 High-Fidelity DNA Polymerase0,25 µLQ5 High GC Enhancer 5× (opcional)5 µL, si se utilizaAgua libre de nucleasasCompletar hasta 25 µLTranscripción de la imagen del informe, p. 17. El agua se ajusta según el volumen de ADN y el uso del componente opcional. Referencia del producto: [8]."
+  },
+  {
+    "title": "Evidencia",
+    "href": "/evidencia/",
+    "category": "Wiki XynA",
+    "text": "Primero, los datos que sustentan la elección de promotores y sustrato. Después, la evidencia proteica y los límites para interpretar una medición de actividad."
+  },
+  {
+    "title": "Equipo",
+    "href": "/equipo/",
+    "category": "Wiki XynA",
+    "text": "Universidad de Ingeniería y Tecnología · Biología Sintética II. Integrantes consignados en el informe del proyecto."
+  },
+  {
+    "title": "Jean Paul Gutarra Montero",
+    "href": "/equipo/#tema-jean-paul-gutarra-montero",
+    "category": "Equipo",
+    "text": "Jean Paul Gutarra Montero"
+  },
+  {
+    "title": "Irma Gaudencia Chavez Grijalva",
+    "href": "/equipo/#tema-irma-gaudencia-chavez-grijalva",
+    "category": "Equipo",
+    "text": "Irma Gaudencia Chavez Grijalva"
+  },
+  {
+    "title": "Yanelit Picon Huaman",
+    "href": "/equipo/#tema-yanelit-picon-huaman",
+    "category": "Equipo",
+    "text": "Yanelit Picon Huaman"
+  },
+  {
+    "title": "Maurizio De la Rosa Monteverde",
+    "href": "/equipo/#tema-maurizio-de-la-rosa-monteverde",
+    "category": "Equipo",
+    "text": "Maurizio De la Rosa Monteverde"
+  },
+  {
+    "title": "Joaquin Geronimo Arriaga Cosio",
+    "href": "/equipo/#tema-joaquin-geronimo-arriaga-cosio",
+    "category": "Equipo",
+    "text": "Joaquin Geronimo Arriaga Cosio"
+  },
+  {
+    "title": "Marialejandra Bautista Gastelo",
+    "href": "/equipo/#tema-marialejandra-bautista-gastelo",
+    "category": "Equipo",
+    "text": "Marialejandra Bautista Gastelo"
+  },
+  {
+    "title": "¿Por qué comparar J23106 y J23100?",
+    "href": "/evidencia/promotores/",
+    "category": "Evidencia publicada",
+    "text": "Pearson et al. compararon los promotores con un reportero RFP. En E. coli XL1-Blue, J23100 produjo una mayor señal media normalizada a densidad celular."
+  },
+  {
+    "title": "¿Por qué comparar J23106 y J23100?",
+    "href": "/evidencia/promotores/#promotores-title",
+    "category": "Promotores",
+    "text": "¿Por qué comparar J23106 y J23100?"
+  },
+  {
+    "title": "Comparación en Pseudomonas putida y contexto de la biblioteca Anderson",
+    "href": "/evidencia/promotores/#detalles-comparacion-en-pseudomonas-putida-y-contexto-de-la-biblioteca-anderson",
+    "category": "Promotores",
+    "text": "Comparación en Pseudomonas putida y contexto de la biblioteca AndersonSeñal reportera publicada: media ± DE, n = 3PromotorE. coli RFP/OD₆₀₀P. putida RFP/OD₆₀₀J231065697 ± 36914 659 ± 748J2310013 267 ± 51722 343 ± 1262Unidades arbitrarias. En P. putida, la razón entre medias es 1,52. La magnitud de la diferencia depende del hospedero.Contexto de la biblioteca Anderson en dos hospederos. La tabla anterior selecciona únicamente los dos promotores de interés.Pearson et al., figura 2. Informe, p. 18. [2]"
+  },
+  {
+    "title": "¿Por qué ensayar una fracción de coronta?",
+    "href": "/evidencia/coronta/",
+    "category": "Evidencia publicada",
+    "text": "Reyes-Ramírez et al. detectaron actividad de una xilanasa comercial sobre una fracción hemicelulósica de coronta fresca obtenida por extracción alcalina."
+  },
+  {
+    "title": "¿Por qué ensayar una fracción de coronta?",
+    "href": "/evidencia/coronta/#coronta-title",
+    "category": "Coronta de maíz",
+    "text": "¿Por qué ensayar una fracción de coronta?"
+  },
+  {
+    "title": "Actividad publicada según el sustrato",
+    "href": "/evidencia/coronta/#tema-actividad-publicada-segun-el-sustrato",
+    "category": "Coronta de maíz",
+    "text": "Actividad publicada según el sustrato"
+  },
+  {
+    "title": "¿Cómo se reconoce proteína con actividad?",
+    "href": "/evidencia/proteina/",
+    "category": "Evidencia publicada",
+    "text": "El SDS-PAGE muestra bandas proteicas; el zimograma localiza actividad sobre el sustrato. Cuong et al. estudiaron MBP-BsXynA11 y BsXynA11-His, variantes diferentes de T1 y T2."
+  },
+  {
+    "title": "¿Cómo se reconoce proteína con actividad?",
+    "href": "/evidencia/proteina/#proteina-title",
+    "category": "Proteína y actividad",
+    "text": "¿Cómo se reconoce proteína con actividad?"
+  },
+  {
+    "title": "Datos de purificación: actividad específica y recuperación en Ruller et al.",
+    "href": "/evidencia/proteina/#detalles-datos-de-purificacion-actividad-especifica-y-recuperacion-en-ruller-et-al",
+    "category": "Proteína y actividad",
+    "text": "Datos de purificación: actividad específica y recuperación en Ruller et al.Dos preparaciones del estudio de Ruller et al.PreparaciónActividad total (U)Actividad específica (U/mg)Recuperación (%)Sobrenadante del cultivo216 0008,00100Fracción final purificada16 6006287,7La actividad específica aumentó 78,5 veces, con 7,7 % de recuperación total. U/mg y U/mL describen aspectos diferentes. El «sobrenadante del cultivo» corresponde a ese estudio; la muestra propuesta para esta wiki es la fracción soluble del lisado celular.Ruller et al., tabla 2. [1] Datos reproducidos en el informe, p. 20."
+  },
+  {
+    "title": "¿Actividad máxima o estabilidad en el tiempo?",
+    "href": "/evidencia/estabilidad/",
+    "category": "Evidencia publicada",
+    "text": "La temperatura que favorece una reacción breve puede diferir de la que conserva la enzima durante una incubación prolongada."
+  },
+  {
+    "title": "¿Actividad máxima o estabilidad en el tiempo?",
+    "href": "/evidencia/estabilidad/#estabilidad-title",
+    "category": "Actividad y estabilidad",
+    "text": "¿Actividad máxima o estabilidad en el tiempo?"
+  },
+  {
+    "title": "Durante la reacción · paneles A y C",
+    "href": "/evidencia/estabilidad/#tema-durante-la-reaccion-paneles-a-y-c",
+    "category": "Actividad y estabilidad",
+    "text": "Durante la reacción · paneles A y C"
+  },
+  {
+    "title": "Después de incubar · paneles B, D, E y F",
+    "href": "/evidencia/estabilidad/#tema-despues-de-incubar-paneles-b-d-e-y-f",
+    "category": "Actividad y estabilidad",
+    "text": "Después de incubar · paneles B, D, E y F"
+  },
+  {
+    "title": "Ver valores destacados de estabilidad y sus límites",
+    "href": "/evidencia/estabilidad/#detalles-ver-valores-destacados-de-estabilidad-y-sus-limites",
+    "category": "Actividad y estabilidad",
+    "text": "Ver valores destacados de estabilidad y sus límitesValores descritos en el informe; no son una digitalización de todas las curvasCondiciónMBP-BsXynA11BsXynA11-HispH de máxima actividad · ensayo de 5 min6,56,5Temperatura de máxima actividad · ensayo de 5 min60 °C60 °CActividad remanente · 30 min a ≥60 °CNo detectadaNo detectadaActividad remanente · 72 h a 50 °C con sustrato58,5 %10,7 %El contexto estructural de la proteína puede modificar su estabilidad. Estos datos orientan las condiciones iniciales del ensayo; su transferencia a las construcciones y a la coronta requiere validación. Fuente: Cuong et al. [11]; informe, pp. 20–21."
+  },
+  {
+    "title": "¿Qué productos pueden formarse?",
+    "href": "/evidencia/productos/",
+    "category": "Evidencia publicada",
+    "text": "Cuong et al. estudiaron xilano de haya con cromatografía en capa fina y HPLC. La identificación de productos individuales requiere información adicional a la lectura global de DNS."
+  },
+  {
+    "title": "¿Qué productos pueden formarse?",
+    "href": "/evidencia/productos/#productos-title",
+    "category": "Productos de hidrólisis",
+    "text": "¿Qué productos pueden formarse?"
+  },
+  {
+    "title": "Ver los valores destacados de rendimiento y composición",
+    "href": "/evidencia/productos/#detalles-ver-los-valores-destacados-de-rendimiento-y-composicion",
+    "category": "Productos de hidrólisis",
+    "text": "Ver los valores destacados de rendimiento y composiciónValores resumidos del estudio de Cuong; no corresponden a corontaIndicadorMBP-BsXynA11BsXynA11-HisRendimiento de XOS con xilano de haya al 1 %, al aumentar la dosis ensayadaDe 59,63 a 90 %De 61 a 73,2 %Proporción conjunta de xilobiosa, xilotriosa y xilotetraosa en los XOS95,1–98,3 %94,2–97,0 %En concentraciones mayores de sustrato, el aumento de dosis no produjo una mejora proporcional. Los porcentajes de productos provienen de HPLC; no se obtienen directamente de DNS. Fuente: Cuong et al. [11]; informe, p. 22."
+  },
+  {
+    "title": "¿Cuánto influye el método de lectura?",
+    "href": "/evidencia/metodo/",
+    "category": "Evidencia publicada",
+    "text": "McCleary y McGeough encontraron respuestas diferentes de xilosa y xilooligosacáridos con DNS y Nelson–Somogyi. El patrón y el método pueden cambiar la actividad calculada."
+  },
+  {
+    "title": "¿Cuánto influye el método de lectura?",
+    "href": "/evidencia/metodo/#metodo-title",
+    "category": "Método analítico",
+    "text": "¿Cuánto influye el método de lectura?"
+  },
+  {
+    "title": "Curvas de xilosa y xilobiosa en distintos sustratos",
+    "href": "/evidencia/metodo/#detalles-curvas-de-xilosa-y-xilobiosa-en-distintos-sustratos",
+    "category": "Método analítico",
+    "text": "Curvas de xilosa y xilobiosa en distintos sustratosLas curvas fueron similares para un mismo patrón en los tres sustratos probados. Esto no demuestra que la fracción de coronta tenga exactamente el mismo efecto.McCleary y McGeough, figura 2. [9] Informe, pp. 23–24."
+  },
+  {
+    "title": "Endoxilanasa de Aspergillus niger: actividad según patrón y método",
+    "href": "/evidencia/metodo/#detalles-endoxilanasa-de-aspergillus-niger-actividad-segun-patron-y-metodo",
+    "category": "Método analítico",
+    "text": "Endoxilanasa de Aspergillus niger: actividad según patrón y métodoEstos valores pertenecen a una endoxilanasa de A. niger con xilano de haya. Se incluyen para mostrar una limitación analítica; no son resultados de XynA ni un factor universal de corrección.Actividad sobre xilano de haya · U/mL (% respecto de xilosa)MétodoXilosaXilobiosaXilotriosaXilotetraosaDNS13 680 (100 %)7750 (57 %)5170 (38 %)4160 (30 %)Nelson–Somogyi1831 (100 %)1751 (96 %)1857 (101 %)1976 (108 %)Selección de la tabla 1 de McCleary y McGeough [9], reproducida en el informe, p. 24. Para el patrón de xilosa, DNS y NS producen valores numéricos muy distintos."
+  },
+  {
+    "title": "Bibliografía",
+    "href": "/referencias/#tema-bibliografia",
+    "category": "Referencias",
+    "text": "Bibliografía"
+  },
+  {
+    "title": "Créditos de las imágenes y procedencia del contenido",
+    "href": "/referencias/#detalles-creditos-de-las-imagenes-y-procedencia-del-contenido",
+    "category": "Referencias",
+    "text": "Créditos de las imágenes y procedencia del contenidoVector parental: material del curso, extraído de la p. 14 del informe.Cassettes y ensamblaje de T2: figuras del equipo, pp. 13 y 15. El esquema de portada adapta su lectura para mostrar T1 y T2 alineados.Gráficas de promotores: Pearson et al. y elaboración a partir de su tabla 2, pp. 18–19.Geles, estabilidad y productos: Cuong et al., paneles 1E–1F y figuras 2–3, pp. 19–22.Curvas de métodos analíticos: McCleary y McGeough, figuras 1–3, p. 23.Comparación de sustratos: representación de los datos de Reyes-Ramírez et al. reproducidos en la p. 25.Identidad UTEC: logotipo extraído de la portada del informe.Fuente documental: «Copia de Proyecto_Biología sintética (4).pdf», 29 páginas. Organización y adaptación visual basadas en «Instrucciones wiki.pdf». Las imágenes incluidas se extrajeron del informe; los derechos de las figuras publicadas corresponden a sus autores y editores."
+  },
+  {
+    "title": "Referencias",
+    "href": "/referencias/",
+    "category": "Wiki XynA",
+    "text": "Bibliografía y créditos de las figuras"
+  }
+]

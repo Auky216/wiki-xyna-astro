@@ -1,0 +1,35 @@
+COMPONENTES, HERRAMIENTAS Y FUENTES
+
+Astro: https://astro.build/ — MIT
+React: https://react.dev/ — MIT
+Tailwind CSS: https://tailwindcss.com/ — MIT
+shadcn/ui: https://github.com/shadcn-ui/ui — MIT
+Magic UI: https://github.com/magicuidesign/magicui — MIT
+Motion: https://motion.dev/ — MIT
+Radix UI: https://www.radix-ui.com/ — MIT
+cmdk: https://github.com/pacocoursey/cmdk — MIT
+Lucide: https://lucide.dev/ — ISC
+Inter: https://rsms.me/inter/ — SIL Open Font License 1.1
+Nunito: https://github.com/googlefonts/nunito — SIL Open Font License 1.1
+
+Los componentes shadcn/ui y Magic UI se añadieron desde sus registros oficiales
+mediante la CLI shadcn. Se conserva su estructura y se adapta la presentación al proyecto.
+Los avisos de licencia de los componentes copiados se incluyen en licenses/.
+Las dependencias instaladas contienen sus propias licencias dentro de node_modules.
+
+Documentación de integración:
+https://ui.shadcn.com/docs/installation/astro
+https://magicui.design/docs/installation
+https://magicui.design/docs/components/blur-fade
+https://magicui.design/docs/components/scroll-progress
+
+Cambios locales principales a los componentes del registro:
+- Utilidad cn unificada en src/lib/utils.ts.
+- Etiquetas de cierre en español.
+- Command admite filtrado local por palabras para resultados relevantes.
+- El título del buscador está dentro de su diálogo accesible.
+- Scroll Progress utiliza un color plano.
+- Blur Fade se usa sin desenfoque y con preferencia de movimiento reducido.
+
+Las figuras científicas y los textos pertenecen a las fuentes citadas en la wiki.
+Este archivo no concede licencias sobre artículos, figuras, nombres o marcas de terceros.

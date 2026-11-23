@@ -1,0 +1,60 @@
+---
+import "@/styles/global.css";
+import "@/styles/playful.css";
+import Search from "@/components/Search";
+import MobileNav from "@/components/MobileNav";
+import SectionIcon from "@/components/SectionIcon.astro";
+import { ReadingProgress } from "@/components/PageMotion";
+import { navigation, topicLabels, wiki, withBase } from "@/lib/wiki";
+interface Props { title: string; current?: string; topic?: string; home?: boolean; description?: string; }
+const { title, current = "", topic = "", home = false, description = "Diseño de expresión constitutiva de XynA y evidencia publicada para evaluar su actividad sobre xilano de coronta de maíz." } = Astro.props;
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content={description} />
+    <title>{title} · XynA Wiki</title>
+    <link rel="icon" type="image/svg+xml" href={withBase("/brand/xyna-mascota.svg")} />
+    <noscript><style>.soft-reveal{opacity:1!important;transform:none!important;filter:none!important}</style></noscript>
+  </head>
+  <body>
+    <a href="#contenido" class="skip-link">Saltar al contenido</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href={withBase("/")} class="brand" aria-label="XynA Wiki, inicio">
+          <img src={withBase("/brand/xyna-mascota.svg")} alt="" width="80" height="80" />
+          <span><strong>XynA<span class="brand-wiki"> / wiki</span></strong><small>Biología Sintética II</small></span>
+        </a>
+        {home && <nav class="home-header-nav" aria-label="Navegación principal">{navigation.slice(0,5).map(item => <a href={withBase(`/${item.id}/`)}>{item.id === "proyecto" ? "Proyecto" : item.label}</a>)}</nav>}
+        {!home && <span class="header-course">Universidad de Ingeniería y Tecnología</span>}
+        <div class="header-actions"><Search client:load /><span class="header-utec"><img src={withBase("/brand/utec.png")} alt="UTEC · Universidad de Ingeniería y Tecnología" width="368" height="194" /></span><MobileNav current={current} client:load /></div>
+      </div>
+      <ReadingProgress client:load />
+    </header>
+    <div class:list={["site-frame", { "is-home": home }]}>
+      {!home && <aside class="sidebar" aria-label="Contenido de la wiki">
+        <p class="sidebar-label">Wiki del proyecto</p>
+        <nav aria-label="Navegación principal" class="sidebar-nav">
+          {navigation.map(item => <div>
+            <a class:list={["sidebar-link", { active: current === item.id }]} href={withBase(`/${item.id}/`)} aria-current={current === item.id ? "page" : undefined}>
+              <SectionIcon name={item.icon} /><span>{item.label}</span>
+            </a>
+            {item.id === "evidencia" && current === "evidencia" && <div class="topic-sidebar">{wiki.topics.map(entry => <a href={withBase(`/evidencia/${entry.slug}/`)} class:list={{ active: topic === entry.slug }} aria-current={topic === entry.slug ? "page" : undefined}>{topicLabels[entry.id]}</a>)}</div>}
+          </div>)}
+        </nav>
+        <div class="sidebar-bottom">
+          <span>Diseño <i>in silico</i><br />y evidencia publicada</span>
+          <a href={withBase("/downloads/wiki-xyna-completa.html")} download>Descargar versión completa</a>
+        </div>
+      </aside>}
+      <main id="contenido" class:list={["main-content", { "home-content": home }]}>
+        {!home && <nav class="breadcrumb" aria-label="Ubicación"><a href={withBase("/")}>Inicio</a><span aria-hidden="true">/</span>{topic ? <><a href={withBase("/evidencia/")}>Evidencia</a><span aria-hidden="true">/</span><span>{topicLabels[topic]}</span></> : <span>{navigation.find(item => item.id === current)?.label}</span>}</nav>}
+        <slot />
+        <footer class="site-footer"><a href={withBase("/")}>XynA · Wiki del proyecto</a><span>Biología Sintética II · UTEC</span><a href={withBase("/referencias/")}>Fuentes y créditos</a></footer>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "method": "Generador integrado de imágenes",
+  "purpose": "Ilustraciones decorativas; no sustituyen ni representan resultados experimentales.",
+  "assets": [
+    {
+      "file": "public/illustrations/xyna-maiz-laboratorio.png",
+      "prompt": "Use case: illustration-story. Asset type: polished website hero illustration for XynA synthetic biology research wiki. Create an ORIGINAL charming flat vector-style editorial illustration on a pure white background. NOT an owl or any existing brand character. Main character: a friendly lime-green enzyme mascot, rounded asymmetric five-lobed protein blob, two large white oval eyes with small dark navy pupils, small confident smile, little rounded hands and feet, a tiny cyan safety-goggle band lifted on forehead. Character stands on a floating white rounded laboratory platform with lime green edge and subtle solid-color extruded bottom. The character is holding an orange-yellow corn cob with geometric kernels and small green husk. Beside it a compact sky-blue microscope and one short purple test tube in a rack. A small floating blue DNA double helix and three tiny colored molecular dots provide balanced composition. Modern educational app illustration: very clean geometric shapes, rounded corners, flat saturated colors, minimal two-tone depth, no gradients, no textures, no photo realism, no soft 3d rendering, no outlines except minimal face details. Palette lime #58cc02 and #89e219, sky #1cb0f6, amber #ffc800, lilac #a56bff, navy #153e60. Landscape composition about 5:4, all objects fully visible with generous 8% white margin, silhouette readable at 400px. No text, no letters, no labels, no watermark. Warm, energetic, thoughtful scientific personality, high quality consistent illustration."
+    },
+    {
+      "file": "public/illustrations/xyna-diseno-genetico.png",
+      "prompt": "Use case: illustration-story. Create a NEW matching illustration for the same XynA scientific website. The attached image is a STYLE and CHARACTER REFERENCE, not a composition to copy. Preserve the exact original lime-green five-lobed enzyme mascot with navy smiling face and cyan goggles. New scene: mascot on the RIGHT of a white rounded platform with purple extruded base, cheerfully arranging three large chunky colored DNA building blocks on a horizontal board, like assembling a gene circuit. The building blocks are lime green, sky blue and purple with clean simple shapes. On the LEFT a large sky-blue circular plasmid ring hovering at a slight tilt, with two tiny colored segment highlights. One small floating yellow four-point sparkle. Only these few elements, generous breathing room. Pure white background, all elements fully visible, 8% whitespace on edges. Flat geometric vector-style illustration, saturated solid colors, rounded simple shapes, minimal hard two-tone depth, no gradients, no texture, no photorealism. No text, letters, sequence labels, arrows or watermark. This is a conceptual decorative illustration, not a scientific figure. Landscape 5:4 composition, crisp high quality.",
+      "styleReference": "xyna-maiz-laboratorio.png"
+    }
+  ],
+  "icon": {
+    "file": "public/brand/xyna-mascota.svg",
+    "method": "Vector original construido en SVG para mantener nitidez en tamaños pequeños."
+  }
+}

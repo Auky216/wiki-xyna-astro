@@ -1,0 +1,20 @@
+---
+import WikiLayout from "@/layouts/WikiLayout.astro";
+import PageHeading from "@/components/PageHeading.astro";
+import PagePager from "@/components/PagePager.astro";
+import ArticleContent from "@/components/ArticleContent";
+import { SoftReveal } from "@/components/PageMotion";
+import { wiki, topicLabels, topicSummaries, withBase, headingText } from "@/lib/wiki";
+const heading = wiki.sections.evidencia.heading;
+const conclusion = wiki.sections.evidencia.body.filter(node => node.tag !== "nav");
+const images: Record<string,string> = {promotores:"informe-p19-1.png",coronta:"",proteina:"informe-p19-2.png",estabilidad:"informe-p21-1.png",productos:"informe-p22-1.png",metodo:"informe-p23-1.png"};
+---
+<WikiLayout title="Evidencia publicada" current="evidencia">
+  <SoftReveal client:load><PageHeading heading={heading} /></SoftReveal>
+  <div class="evidence-directory">{wiki.topics.map(topic => <a class="evidence-entry" href={withBase(`/evidencia/${topic.slug}/`)}>
+    <div class="evidence-entry-copy"><span>{topicLabels[topic.id]}</span><h2>{headingText(topic.heading)}</h2><p>{topicSummaries[topic.id]}</p><strong>Explorar evidencia</strong></div>
+    <div class="evidence-entry-visual">{images[topic.id] ? <img src={withBase(`/figures/${images[topic.id]}`)} alt="" width="180" height="120" loading="lazy" /> : <div class="substrate-glyph" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>}</div>
+  </a>)}</div>
+  <ArticleContent nodes={conclusion} client:visible />
+  <PagePager previous={{ href:"/experimento/",label:"Experimento" }} next={{ href:"/evidencia/promotores/",label:"Promotores" }} />
+</WikiLayout>

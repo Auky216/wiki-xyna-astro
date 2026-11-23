@@ -1,0 +1,21 @@
+---
+import WikiLayout from "@/layouts/WikiLayout.astro";
+import PageHeading from "@/components/PageHeading.astro";
+import PagePager from "@/components/PagePager.astro";
+import ArticleContent from "@/components/ArticleContent";
+import { SoftReveal } from "@/components/PageMotion";
+import { navigation, wiki, headingText, withBase } from "@/lib/wiki";
+export function getStaticPaths() {
+  return navigation.filter(item => !["evidencia","referencias"].includes(item.id)).map(item => ({ params: { section: item.id } }));
+}
+const id = Astro.params.section!;
+const section = wiki.sections[id];
+const position = navigation.findIndex(item => item.id === id);
+const previous = position > 0 ? { href: `/${navigation[position-1].id}/`, label: navigation[position-1].label } : undefined;
+const next = position < navigation.length-1 ? { href: `/${navigation[position+1].id}/`, label: navigation[position+1].label } : undefined;
+---
+<WikiLayout title={navigation[position].label} current={id} description={headingText(section.heading)}>
+  <SoftReveal client:load><div class:list={["section-heading", { "with-illustration": id === "diseno" || id === "experimento" }]}><PageHeading heading={section.heading} />{(id === "diseno" || id === "experimento") && <img class="section-illustration" src={withBase(`/illustrations/${id === "diseno" ? "xyna-diseno-genetico" : "xyna-maiz-laboratorio"}.png`)} alt="" width="1402" height="1122" />}</div></SoftReveal>
+  <ArticleContent nodes={section.body} className={`article-${id}`} client:load />
+  <PagePager previous={previous} next={next} />
+</WikiLayout>

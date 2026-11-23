@@ -1,0 +1,18 @@
+---
+import WikiLayout from "@/layouts/WikiLayout.astro";
+import PageHeading from "@/components/PageHeading.astro";
+import PagePager from "@/components/PagePager.astro";
+import ArticleContent from "@/components/ArticleContent";
+import { SoftReveal } from "@/components/PageMotion";
+import { wiki, topicLabels } from "@/lib/wiki";
+export function getStaticPaths() { return wiki.topics.map(topic => ({ params: { topic: topic.slug } })); }
+const current = wiki.topics.find(topic => topic.slug === Astro.params.topic)!;
+const position = wiki.topics.indexOf(current);
+const previous = position > 0 ? { href:`/evidencia/${wiki.topics[position-1].slug}/`,label:topicLabels[wiki.topics[position-1].id] } : { href:"/evidencia/",label:"Toda la evidencia" };
+const next = position < wiki.topics.length-1 ? { href:`/evidencia/${wiki.topics[position+1].slug}/`,label:topicLabels[wiki.topics[position+1].id] } : { href:"/equipo/",label:"Equipo" };
+---
+<WikiLayout title={topicLabels[current.id]} current="evidencia" topic={current.id}>
+  <SoftReveal client:load><PageHeading heading={current.heading} /></SoftReveal>
+  <ArticleContent nodes={current.body} className={`article-evidence article-${current.id}`} client:load />
+  <PagePager previous={previous} next={next} />
+</WikiLayout>
